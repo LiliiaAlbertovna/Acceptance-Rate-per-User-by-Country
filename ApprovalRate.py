@@ -85,7 +85,7 @@ country_summary.style.hide(axis='index')
 
 
 # Save results to Excel file
-excel_file_path = "/Users/Downloads/Acceptance_Rate.xlsx" # Specify the correct directory path and desired file name
+excel_file_path = "/content/drive/MyDrive/Results.xlsx" # Specify the correct directory path and desired file name
 country_summary.to_excel(excel_file_path, index=False)
 
 print("Results saved to Excel file:", excel_file_path)
