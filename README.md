@@ -7,6 +7,7 @@ Here's how we derive the result:
 
 
 Don't forget to install:
-
+```
 pip install pandas
 pip install pycountry
+```
