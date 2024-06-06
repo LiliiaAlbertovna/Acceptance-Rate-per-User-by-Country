@@ -5,7 +5,12 @@ Here's how we derive the result:
 2. We treat duplicate failed orders with the same errors from a user to the one partner ID on the same day as one failed order.
 3. We don't count a failed order if there was at least one successful order on the same day.
 
+
 The table contains the following columns: 'id', 'user_id', 'partner_id', 'status', 'created_at', 'country', 'provider', 'error'.
+
+
+Use https://colab.research.google.com/ for better experience.
+
 
 Don't forget to install:
 ```
